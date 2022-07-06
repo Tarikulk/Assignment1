@@ -15,6 +15,7 @@ body {
     align-items: center;
 }
 
+/* hello world */
 #home::before {
     content: "";
     background-image: url(./images/donation13.jpg);
