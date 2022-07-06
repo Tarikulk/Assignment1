@@ -17,7 +17,7 @@ body {
 
 #home::before {
     content: "";
-    background-image: url(/images/donation13.jpg);
+    background-image: url(./images/donation13.jpg);
     position: absolute;
     background-repeat: no-repeat;
     background-position: center;
