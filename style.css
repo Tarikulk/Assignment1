@@ -1,0 +1,231 @@
+body {
+    margin: 0%;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-family: "Mukta", sans-serif;
+    font-family: "Poppins", sans-serif;
+    font-family: "Roboto", sans-serif;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 540px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before {
+    content: "";
+    background-image: url(/images/donation13.jpg);
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    top: 0px;
+    left: 0px;
+    height: 80%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+.btn {
+    color: white;
+    background-color: tomato;
+    padding: 15px 25px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+.h-primary {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 800;
+}
+
+.Donate {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    margin: 50px 0;
+    width: 100%;
+}
+
+.flex-container h1 {
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+#hold {
+    font-weight: 700;
+    color: tomato;
+    border: 2px solid tomato;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+#flex-container-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+#other-amount {
+    border: none;
+    border-bottom: 2px solid red;
+    outline: none;
+    width: 40%;
+    padding: 12px 20px;
+    margin: 15px 0;
+    text-align: center;
+}
+
+#donate-plane {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h1-primary-two {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.flex-container-three {
+    display: flex;
+    margin: 50px 0;
+    /* width: 100%; */
+}
+
+#food {
+    background-color: blanchedalmond;
+    margin: 40px;
+    padding-left: 20px;
+    padding-right: 10px;
+    text-align: justify;
+    border-radius: 10px;
+}
+
+#shelter {
+    background-color: blanchedalmond;
+    margin: 40px;
+    padding-left: 20px;
+    padding-right: 10px;
+    text-align: justify;
+    border-radius: 10px;
+}
+
+#education {
+    background-color: blanchedalmond;
+    margin: 40px;
+    padding-left: 20px;
+    padding-right: 10px;
+    text-align: justify;
+    border-radius: 10px;
+}
+
+.icons {
+    margin-top: 20px;
+}
+
+#picture {
+    margin-bottom: 100px;
+}
+
+#tragic {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.flex-container-four {
+    display: flex;
+}
+
+.half-width {
+    padding-left: 7%;
+    padding-top: 4%;
+    text-align: center;
+}
+
+.half-width img {
+    width: 270px;
+}
+
+.shadow {
+    width: 20%;
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 5.5%;
+    margin-right: 5%;
+    padding-left: 25px;
+    padding-right: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#subscribe {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#subscribe h1 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 40px;
+}
+
+#subscribe p {
+    font-size: 20px;
+}
+
+#sub-box {
+    background-color: darkslategrey;
+    padding: 80px 0;
+    margin: 0 350px;
+    border-radius: 10px;
+}
+
+#sub-box input {
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+#sub-box button {
+    background-color: tomato;
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+#humble {
+    background-color: black;
+    color: tomato;
+    height: 200px;
+}
+
+#end {
+    font-family: "IBM Plex Sans", sans-serif;
+    padding-top: 50px;
+    text-align: center;
+}
+
+#end-p {
+    font-family: "IBM Plex Sans", sans-serif;
+    text-align: center;
+}
